@@ -114,7 +114,7 @@ if __name__ == "__main__":
     pct = 60                ## Max Investing %
     print__ = True          ## Do prints
 
-    tickers = ["GRVY"]      ## Ticker to analyse - overwriting atm... MUST BE DELETED TO RUN OVER ALL
+    tickers = ["AAPL"]      ## Ticker to analyse - overwriting atm... MUST BE DELETED TO RUN OVER ALL
 
     for ticker in tickers: 
         for i in range(starting_year,2023): 
