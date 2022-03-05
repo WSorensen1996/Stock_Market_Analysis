@@ -108,13 +108,13 @@ def plot(df, param="Close"):
 if __name__ == "__main__": 
     #stockinfo(tickers[0])  ## STOK INFO MUST OUTCOMMENT TO SEE
 
-    #tickers = get_tickers()
+    tickers = get_tickers()
     start_capital = 10000   ## Starting ammount of capital
     starting_year = 2000    ## Starting year of simulation
     pct = 60                ## Max Investing %
     print__ = True          ## Do prints
 
-    tickers = ["AAPL"]      ## Ticker to analyse - overwriting atm... MUST BE DELETED TO RUN OVER ALL
+    #tickers = ["AAPL"]      ## Ticker to analyse - overwriting atm... MUST BE DELETED TO RUN OVER ALL
 
     for ticker in tickers: 
         for i in range(starting_year,2023): 
